@@ -2,7 +2,7 @@
   const IMAGE =
     "https://res.cloudinary.com/albin-groen/image/upload/f_auto,q_auto/v1640634238/twitter-profile-embed-meta_a0gsc5.png";
   const DESCRIPTION = "Embed your Twitter profile on your website";
-  const URL = "https://twitter-profile-embed.com";
+  const URL = "https://twitter-profile-embed-site.vercel.app/";
   const TITLE = "Twitter Profile Embed";
 </script>
 

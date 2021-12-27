@@ -1,4 +1,7 @@
 import App from "./App.svelte";
+import splitbee from "@splitbee/web";
+
+splitbee.init();
 
 const app = new App({
   target: document.body,

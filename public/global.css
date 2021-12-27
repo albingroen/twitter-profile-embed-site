@@ -1,0 +1,28 @@
+@import url("https://rsms.me/inter/inter.css");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Inter", sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+	html {
+		font-family: "Inter var", sans-serif;
+	}
+}
+
+body {
+	padding: 5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background: #111827;
+		color: white;
+	}
+}
